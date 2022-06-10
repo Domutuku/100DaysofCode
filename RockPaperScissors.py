@@ -31,33 +31,37 @@ scissors = '''
 #Write your code below this line 👇
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."))
 
-print(user_choice)
 computer_choice = random.randint(0,2)
-print(computer_choice)
 
 if user_choice == computer_choice:
     print("DRAW")
 elif user_choice == 0 and computer_choice == 1:
     print(rock)
+    print("Computer chose:")
     print(paper)
-    print("Paper wins.")
+    print("You lose.")
 elif user_choice == 0 and computer_choice == 2:
     print(rock)
+    print("Computer chose:")
     print(scissors)
-    print("Rock wins.")
+    print("You win.")
 elif user_choice == 1 and computer_choice == 0:
     print(paper)
+    print("Computer chose:")
     print(rock)
-    print("Paper wins.")
+    print("You win.")
 elif user_choice == 1 and computer_choice == 2:
     print(paper)
+    print("Computer chose:")
     print(scissors)
-    print("Scissors wins.")
+    print("You lose.")
 elif user_choice == 2 and computer_choice == 0:
     print(scissors)
+    print("Computer chose:")
     print(rock)
-    print("Rock wins.")
+    print("You lose.")
 elif user_choice == 2 and computer_choice == 1:
     print(scissors)
+    print("Computer chose:")
     print(paper)
-    print("Scissors wins.")
+    print("You win.")
