@@ -66,4 +66,4 @@ elif user_choice == 2 and computer_choice == 1:
     print(paper)
     print("You win.")
 else:
-    print("Something went wrong. Please try again")
+    print("Something went wrong. You typed an invalid number. Please try again")
